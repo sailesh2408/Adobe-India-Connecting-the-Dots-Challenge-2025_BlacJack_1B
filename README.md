@@ -37,15 +37,15 @@ In your working directory, create the required input and output folders. The inp
 mkdir -p input/PDFs
 mkdir output
 
-
 Your directory should look like this:
-`your-working-directory/
+```plaintext
+your-working-directory/
 ├── input/
 │   ├── config.json
 │   └── PDFs/
 │       └── your-document.pdf
-└── output/`
-
+└── output/
+```
 
 
 Place all the PDF files you want to analyze inside the 'input/pdfs' folder.
