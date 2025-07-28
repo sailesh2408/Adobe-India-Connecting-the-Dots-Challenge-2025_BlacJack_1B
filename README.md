@@ -39,12 +39,12 @@ mkdir output
 
 
 Your directory should look like this:
-your-working-directory/
+`your-working-directory/
 ├── input/
 │   ├── config.json
 │   └── PDFs/
 │       └── your-document.pdf
-└── output/
+└── output/`
 
 
 
