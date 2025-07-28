@@ -47,6 +47,7 @@ your-working-directory/
 └── output/
 
 
+
 Place all the PDF files you want to analyze inside the 'input/pdfs' folder.
 
 The config.json must follow this structure:
