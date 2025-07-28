@@ -8,8 +8,10 @@ This repository contains the complete solution for Round 1B. The mission is to b
 Our Methodology
 The challenge of extracting useful information for a specific user persona requires a system that can move beyond simple keyword matching and grasp the underlying semantic meaning of both the user's intent and the document's content. Our methodology achieves this through a lightweight, efficient, and offline-first approach centered on sentence embeddings and vector similarity, ensuring compliance with the strict CPU-only, no-network, and performance constraints of the hackathon.
 Our approach is a four-stage pipeline:
+
 1. Semantic Query Formulation
 The process begins by understanding the user's needs. We combine the provided persona (e.g., "Travel Planner") and the job_to_be_done (e.g., "Plan a trip for college friends") into a single, comprehensive query string. This unified query serves as the ground truth for the user's intent, providing a rich semantic target for our system to search for.
+
 2. Granular Text Chunking
 Recognizing that relevance often lies within specific paragraphs rather than entire documents, we first parse each PDF in the collection. The text is segmented into coherent, paragraph-level chunks. This granularity is key to providing precise and actionable results. Each chunk is stored along with its source document and page number, maintaining a clear link back to its origin.
 
@@ -18,6 +20,7 @@ This is the core of our intelligent system. We utilize the all-MiniLM-L6-v2 sent
 First, the semantic query formulated in stage one is passed through the model to generate a query vector.
 Next, every single text chunk extracted from the documents is passed through the same model, generating a corpus of content vectors.
 This process transforms the abstract problem of "finding relevant text" into a concrete mathematical problem of finding vectors that are close to each other.
+
 4. Relevance Ranking via Cosine Similarity
 With the query and all text chunks represented as vectors in the same high-dimensional space, we can accurately measure their semantic relationship. We compute the cosine similarity between the query vector and every content vector in our corpus. A higher cosine score indicates a stronger semantic match. The text chunks are then sorted in descending order based on this similarity score. The resulting rank directly reflects the semantic relevance of each chunk to the user's persona and task, providing the final, prioritized output.
 
