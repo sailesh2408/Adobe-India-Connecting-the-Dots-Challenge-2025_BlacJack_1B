@@ -124,9 +124,9 @@ It contains:
 
 ## Notes
 
-- ❌ No internet calls during runtime  
-- 📄 Uses clean test PDFs and configuration  
-- 🚀 Easy-to-run containers for judges and reviewers
+- No internet calls during runtime  
+- Uses clean test PDFs and configuration  
+- Easy-to-run containers for judges and reviewers
 
 ---
 
