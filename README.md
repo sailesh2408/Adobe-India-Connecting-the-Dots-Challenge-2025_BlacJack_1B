@@ -138,7 +138,7 @@ It contains:
 - **Sidharth R Krishna**  
   B.Tech CSE, Amrita Vishwa Vidyapeetham
 
-- **Yampathi Sai Sailesh Reddy**  
+- **Yampati Sai Sailesh Reddy**  
   B.Tech CSE, Amrita Vishwa Vidyapeetham
 
 ---
