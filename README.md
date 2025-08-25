@@ -1,11 +1,4 @@
-# Adobe-India-Connecting-the-Dots-Challenge-2025_1b
-**Adobe India Hackathon 2025: Round 1B – Persona-Driven Document Intelligence**
-
----
-
-## Submission for the "Connecting the Dots" Challenge
-
-This repository contains the complete solution for Round 1B. The mission is to build an intelligent document analyst that extracts and prioritizes the most relevant sections from a collection of documents based on a specific user persona and their "job-to-be-done."
+# InfoWeave - Extract. Organize. Simplify
 
 ---
 
